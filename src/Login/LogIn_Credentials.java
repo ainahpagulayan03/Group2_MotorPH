@@ -121,6 +121,15 @@ public class LogIn_Credentials extends javax.swing.JFrame {
     else {
         JOptionPane.showMessageDialog(null, "Wrong Username or Password", "Message", JOptionPane.ERROR_MESSAGE);
     }
+        
+    //Open Employee_Select
+    
+    Employee_select EmpSelect = new Employee_select();
+    EmpSelect.show(); //displays Employee_Select here
+    
+    dispose(); // close current frame afer open Employee_Select 
+
+    }                     
     }//GEN-LAST:event_bLoginActionPerformed
 
     private void jPassActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jPassActionPerformed
